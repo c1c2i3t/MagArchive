@@ -189,3 +189,93 @@
 *   **文件大小**：30 G
     
 *   **文件数量**：900 多份
+
+
+  ### 21、Jazz Mazgazine爵士杂志历年电子版PDF资源网盘合集/Jazz Mazgazine杂志历年电子版资源合集【1972年-2026年】Jazz Magazine Full Year PDF Collection
+
+*   **杂志介绍**：《Jazz Magazine》是法国历史上最负盛名、最具影响力的爵士乐杂志之一
+
+*   **文件大小**：16 G
+    
+*   **文件数量**：533 多份
+
+
+  ### 22、专业摄影师爵士杂志历年电子版PDF资源网盘合集/Professional Photographer杂志历年电子版资源合集【1950年-2026年】Professional Photographer Full Year PDF Collection
+
+*   **杂志介绍**：《Professional Photographer》美国专业摄影师杂志是美国历史最悠久的摄影专业杂志之一，由美国专业摄影师协会（PPA）出版发行。杂志的前身可追溯至1907年创刊的《Abel’s Photographic Weekly》，历经多次更名，至今已有超过110年的出版历史。
+
+*   **文件大小**：32 G
+    
+*   **文件数量**：901 多份
+
+
+  ### 23、Vogue USA时尚杂志历年电子版PDF资源网盘合集/Vogue USA杂志历年电子版资源合集【1928年-2026年】Vogue USA Full Year PDF Collection
+
+*   **杂志介绍**：VOGUE，是美国康泰纳仕（CondéNest）集团出版的综合性时尚生活杂志。
+
+*   **文件大小**：136 G
+    
+*   **文件数量**：1600 多份
+  
+
+  ### 24、科学美国人杂志历年电子版PDF资源网盘合集/Scientific American杂志历年电子版资源合集【1953年-2026年】Scientific American Full Year PDF Collection
+
+*   **杂志介绍**：《科学美国人》（Scientific American）是一本历史悠久、享誉全球的科普杂志，以其权威性和前瞻性的内容，成为连接科学界与公众的重要桥梁。
+
+*   **文件大小**：7.8 G
+    
+*   **文件数量**：417 多份
+
+
+  ### 25、科学杂志历年电子版PDF资源网盘合集/Science科学杂志历年电子版资源合集【1880年-2026年】Science Full Year PDF Collection
+
+*   **杂志介绍**：《科学》（英语：Science）是美国科学促进会出版的学术期刊，首版于1880年7月3日。现任主编为霍尔顿·索普（自2019年10月28日起）
+
+*   **文件大小**：140 G
+    
+*   **文件数量**：5400 多份
+
+
+  ### 26、科学新闻杂志历年电子版PDF资源网盘合集/Science News科学新闻杂志历年电子版资源合集【1922年-2026年】Science Full Year PDF Collection
+
+*   **杂志介绍**：《Science News》是美国历史最悠久的科普杂志之一，由报业巨头E.W.斯克里普斯和动物学家W.E.里特于1921年共同创立，由科学与公众协会（Society for Science）出版。杂志致力于以清晰、准确、简洁的方式报道科学、医学和技术领域的最新进展，是全球最具影响力的科普出版物之一。
+
+*   **文件大小**：32.6 G
+    
+*   **文件数量**：4821 多份
+
+
+  ### 27、滚石杂志历年电子版PDF资源网盘合集/Rolling Stone USA滚石杂志历年电子版资源合集【1967年-2026年】Rolling Stone USA Full Year PDF Collection
+
+*   **杂志介绍**：《滚石杂志》（Rolling Stone）是一本美国双周刊（现为月刊）杂志，专注于音乐、政治和流行文化。该杂志由 简·温纳（Jann Wenner） 与乐评人 拉尔夫·格里森（Ralph J. Gleason） 于 1967年11月9日 在美国旧金山创立，是定义美国乃至全球流行文化品味的权威杂志之一。
+
+*   **文件大小**：40 G
+    
+*   **文件数量**：1134 多份
+
+
+  ### 28、视与听杂志历年电子版PDF资源网盘合集/Sight and Sound视与听杂志历年电子版资源合集【1932年-2026年】Sight and Sound Full Year PDF Collection
+
+*   **杂志介绍**：《Sight and Sound》是一本国际性的电影杂志，由英国电影学会（BFI）出版发行。杂志创刊于1932年春季。《Sight and Sound》被誉为国际电影评论的权威之声，以“高深但易懂”（highbrow but accessible）的风格著称。《独立报》曾如此评价这份杂志。它是英国历史最悠久、最受尊敬的电影杂志。
+
+*   **文件大小**：26 G
+    
+*   **文件数量**：496 多份
+
+
+  ### 29、Stereophile音响器材测评杂志历年电子版PDF资源网盘合集/Stereophile音响器材测评杂志历年电子版资源合集【1932年-2026年】Sight and Sound Full Year PDF Collection
+
+*   **杂志介绍**：《Stereophile》是一本在高端音响领域极具影响力的美国杂志，是专注高端音频设备及相关资讯的刊，由J. Gordon Holt先生于1962年创办。它常被音响爱好者称为“发烧天书”，在业界享有泰斗级的声誉。
+  
+*   **文件大小**：16.7 G
+    
+*   **文件数量**：496 多份
+  
+
+  ### 30、Popular Science大众科学杂志历年电子版PDF资源网盘合集/Popular Science杂志历年电子版资源合集【1872年-2026年】Popular Science Full Year PDF Collection
+
+*   **杂志介绍**：《Popular Science》是一本历史悠久、在全球范围内极具影响力的大众科普杂志，以其通俗易懂的方式，向读者介绍最前沿的科学技术、工程和数学等领域的创新与发现。
+  
+*   **文件大小**：63 G
+    
+*   **文件数量**：1220 多份
