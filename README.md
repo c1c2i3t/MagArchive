@@ -279,3 +279,183 @@
 *   **文件大小**：63 G
     
 *   **文件数量**：1220 多份
+  
+
+     ### 31、73 Amateur Radio Today 73业余无线电杂志历年电子版PDF资源网盘合集/73 Amateur Radio Today杂志历年电子版资源合集【1960年-2003年】73 Amateur Radio Today Full Year PDF Collection
+
+*   **杂志介绍**：《73 Amateur Radio Today》是一本在业余无线电领域里颇有历史的美国杂志。中文参考译名 《73业余无线电今日》，创刊于1960年，停刊于2003年。
+  
+*   **文件大小**：16.9 G
+    
+*   **文件数量**：514 多份
+  
+
+     ### 32、Air Forces Monthly 航空力量月刊杂志历年电子版PDF资源网盘合集/Air Forces Monthly杂志历年电子版资源合集【1988年-2026年】Air Forces Monthly Full Year PDF Collection
+
+*   **杂志介绍**：《Air Forces Monthly》（常缩写为AFM）是一本专注于现代军用飞机及其航空兵部队的专业月刊。该杂志致力于报道全球军用航空领域的最新动态、技术发展和作战力量部署，以其深入的专题报道和广泛的覆盖范围在全球军事航空爱好者中享有盛誉。
+  
+*   **文件大小**：19.9 G
+    
+*   **文件数量**：398 多份
+
+
+     ### 33、Air International 国际航空杂志历年电子版PDF资源网盘合集/Air International杂志历年电子版资源合集【1978年-2025年】Air International Full Year PDF Collection
+
+*   **杂志介绍**：《Air International》是英国一本历史悠久的航空月刊。杂志内容涵盖当代防务航天和民用航空领域的广泛主题，它被誉为“世界上最好的航空杂志”。以其权威、文笔优美的文章，以及民用/军用、现代/历史主题的良好结合而广受赞誉。于1971年创刊，于2025年停刊。
+  
+*   **文件大小**：13.8 G
+    
+*   **文件数量**：310 多份
+
+
+     ### 34、American Architect and Architecture 美国建筑师与建筑杂志历年电子版PDF资源网盘合集/American Architect and Architecture杂志历年电子版资源合集【1897年-1938年】American Architect and Architecture Full Year PDF Collection
+
+*   **杂志介绍**：American Architect and Architecture（及其前身系列）是 美国第一本取得长期成功的建筑期刊，在 1876年至1938年 间持续出版，横跨了美国建筑从战后重建到现代主义兴起的转型时代。其出版初衷是打造一本全国性的建筑行业期刊，为全美建筑从业者提供新闻、技术、设计和商业信息。
+  
+*   **文件大小**：42.1 G
+    
+*   **文件数量**：2589 多份
+
+
+     ### 35、American Artist 美国艺术家杂志历年电子版PDF资源网盘合集/American Artist 美国艺术家杂志历年电子版资源合集【1937年-2012年】American Artist Full Year PDF Collection
+
+*   **杂志介绍**：《American Artist》是美国历史最悠久的艺术实践杂志之一，由沃森-格普蒂尔出版公司（Watson-Guptill Publications）于1937年4月创刊。杂志以“写实与具象艺术”为核心理念，致力于为艺术家提供灵感、指导和行业洞察，是全球具象艺术家的首选读物。于2012年停刊。
+
+*   **文件大小**：16.4 G
+    
+*   **文件数量**：514 本
+
+
+     ### 36、American Cinematographer 美国电影摄影师杂志历年电子版PDF资源网盘合集/American Cinematographer 美国电影摄影师杂志历年电子版资源合集【1922年-2026年】American Cinematographer Full Year PDF Collection
+
+*   **杂志介绍**：《American Cinematographer》中文常译为《美国电影摄影师》，是全球电影摄影领域公认的权威刊物。由权威组织美国电影摄影师协会（ASC） 创办并出版，是其官方会刊。ASC是一个兼具教育性、文化性、专业性的组织。
+
+*   **文件大小**：34 G
+    
+*   **文件数量**：1227 本
+
+
+     ### 37、American Woodturner 美国木旋师杂志历年电子版PDF资源网盘合集/American Woodturner 美国木旋师杂志历年电子版资源合集【1986年-2026年】American Woodturner Full Year PDF Collection
+
+*   **杂志介绍**：《American Woodturner》（中文常译作《美国木旋师》或《美国木旋者》）是美国木旋者协会（American Association of Woodturners, AAW）的官方期刊，是木旋艺术领域最具影响力的专业出版物。它不仅仅是一本杂志，更是连接全球木旋艺术家和爱好者的知识纽带与社群桥梁，是系统学习和深入参与木旋艺术的首选读物。
+
+*   **文件大小**：2 G
+    
+*   **文件数量**：188 本
+
+
+     ### 38、Applied Organometallic Chemistry 应用有机金属化学杂志历年电子版PDF资源网盘合集/Applied Organometallic Chemistry 应用有机金属化学杂志历年电子版资源合集【1987年-2026年】Applied Organometallic Chemistry Full Year PDF Collection
+
+*   **杂志介绍**：《Applied Organometallic Chemistry》(APPL ORGANOMET CHEM)是有机金属化学和金属有机化学领域内一份颇具影响力的国际学术期刊。该期刊主要发表涉及主族金属、过渡金属、镧系元素和锕系元素的有机金属和金属有机化学各个领域的科学研究。
+
+*   **文件大小**：25 G
+    
+*   **文件数量**：未统计
+
+
+       ### 39、Architectural Record 建筑实录杂志历年电子版PDF资源网盘合集/Architectural Record 建筑实录杂志历年电子版资源合集【1891年-2026年】Architectural Record Full Year PDF Collection
+
+*   **杂志介绍**：《Architectural Record》是美国历史最悠久的建筑专业杂志之一，它对美国及全球建筑学科和专业发展产生了深远影响。
+
+*   **文件大小**：108 G
+    
+*   **文件数量**：1491 本
+
+
+       ### 40、Astronomy 天文科普杂志历年电子版PDF资源网盘合集/Astronomy 天文科普杂志历年电子版资源合集【1973年-2026年】Astronomy Full Year PDF Collection
+
+*   **杂志介绍**：《Astronomy》是一本在国际上广受欢迎的天文科普杂志。
+
+*   **文件大小**：15 G
+    
+*   **文件数量**：545 本
+
+
+       ### 41、Autosport 赛车杂志杂志历年电子版PDF资源网盘合集/Autosport 赛车杂志历年电子版资源合集【1950年-2026年】Autosport Full Year PDF Collection
+
+*   **杂志介绍**：《Autosport》是一家源自英国的赛车运动专业媒体。它成立于1950年，除了运营网站，也出版月刊杂志，为全球范围内的赛车迷提供深入的报道和分析。它的核心特色在于提供广泛且专业的赛车运动内容，覆盖了包括一级方程式赛车（F1）、世界耐力锦标赛（WEC）、世界拉力锦标赛（WRC）、印地赛车（IndyCar） 在内的多项顶级赛事。
+
+*   **文件大小**：94 G
+    
+*   **文件数量**：1829 本
+
+
+       ### 42、Barrons巴伦周刊杂志历年电子版PDF资源网盘合集/Barrons巴伦周刊杂志历年电子版资源合集【1971-2026】缺（1999-2016）Barrons Full Year PDF Collection
+
+*   **杂志介绍**：《巴伦周刊》（Barron’s）是美国最具影响力的专业财经周刊，是全球金融投资领域的权威出版物。
+
+*   **文件大小**：334 G
+    
+*   **文件数量**：1720 本
+
+
+       ### 43、Billboard 美国公告牌音乐杂志历年电子版PDF资源网盘合集/Billboard 美国公告牌杂志历年电子版资源合集【1984-2026】Billboard Full Year PDF Collection
+
+*   **杂志介绍**：《Billboard》（中文常译为《公告牌》或《告示牌》）是全球音乐界最具影响力的音乐杂志和媒体品牌之一，尤其以其权威的音乐排行榜闻名。
+
+*   **文件大小**：117 G
+    
+*   **文件数量**：5208 本
+
+
+       ### 44、Bloomberg 彭博商业周刊杂志历年电子版PDF资源网盘合集/Bloomberg 彭博商业周刊杂志历年电子版资源合集【1929-2026】Bloomberg Full Year PDF Collection
+
+*   **杂志介绍**：《彭博商业周刊》是著名的美国商业杂志，之前名称为business week，后更为Bloomberg Businessweek。
+
+*   **文件大小**：235 G
+    
+*   **文件数量**：5553 本
+
+
+       ### 45、Blues Matters!布鲁斯音乐杂志历年电子版PDF资源网盘合集/Blues Matters!布鲁斯音乐杂志历年电子版资源合集【1998-2026】Blues Matters! Full Year PDF Collection
+
+*   **杂志介绍**：《Blues Matters!》的内容全面覆盖布鲁斯音乐的方方面面，旨在为布鲁斯爱好者提供专业、有趣的内容。杂志内容不仅涵盖传统布鲁斯，也积极关注现代布鲁斯、蓝调摇滚、灵魂乐、根源音乐等关联流派，展现了布鲁斯音乐的丰富性和演变。
+
+*   **文件大小**：16 G
+    
+*   **文件数量**：169 本
+
+
+       ### 46、Bon Appetit (USA) 好胃口杂志历年电子版PDF资源网盘合集/Bon Appetit (USA) 好胃口杂志历年电子版资源合集【1988-2026】Bon Appetit (USA) Full Year PDF Collection
+
+*   **杂志介绍**：Bon Appétit 是一本美国美食与娱乐杂志，由康泰纳仕（Condé Nast）出版公司发行。杂志名称源自法语，意为“祝您好胃口”。Bon Appétit 将自己定位为“以食物视角看生活”的媒体品牌，涵盖在家烹饪、外出就餐、文化、旅行、娱乐、购物和设计等多个维度。其核心理念是：通过故事和食谱，让食物文化触达每一个人，让生活变得更加美味。
+
+*   **文件大小**：20.5 G
+    
+*   **文件数量**：411 本
+
+
+       ### 47、Brew Your Own BYO自酿啤酒杂志历年电子版PDF资源网盘合集/Brew Your Own BYO自酿啤酒杂志历年电子版资源合集【1995-2026】Brew Your Own BYO Full Year PDF Collection
+
+*   **杂志介绍**：《Brew Your Own》（常缩写为BYO杂志）是一本在全球家酿啤酒爱好者中极具影响力的权威杂志，被爱好者们亲切地称为“家酿圣经”。它致力于为家庭酿酒师提供全面、专业且实用的知识、技术和灵感。
+
+*   **文件大小**：12.6 G
+    
+*   **文件数量**：268 本
+
+
+       ### 48、Choir & Organ 合唱管风琴杂志历年电子版PDF资源网盘合集/Choir & Organ 合唱管风琴杂志历年电子版资源合集【1993-2026】Choir & Organ Full Year PDF Collection
+
+*   **杂志介绍**：《Choir & Organ》（合唱与管风琴）是一本在国际音乐领域，特别是合唱与管风琴方面，备受推崇的专业性期刊。它为指挥家、管风琴家、作曲家以及各类合唱团提供展示与交流的平台。同时，也深入探讨管风琴制作这门富有想象力的技艺。
+
+*   **文件大小**：11.5 G
+    
+*   **文件数量**：203 本
+
+
+       ### 49、CINEFEX 电影特效杂志历年电子版PDF资源网盘合集/CINEFEX 电影特效杂志历年电子版资源合集【1980-2021】CINEFEX Full Year PDF Collection
+
+*   **杂志介绍**：《Cinefex》杂志，曾是全球公认的电影视觉特效领域的“圣经”。这本极具影响力的专业杂志，已于2021年停刊。中文名 常称《电影特效杂志》；中文版名为《魔影视效》。《Cinefex》每期都会精选几部最新的特效大片，进行极为深入的剖析。
+
+*   **文件大小**：13 G
+    
+*   **文件数量**：172 本
+
+
+       ### 50、Circuit Cellar嵌入式系统工程师专业杂志历年电子版PDF资源网盘合集/Circuit Cellar嵌入式系统工程师专业杂志历年电子版资源合集【1993-2026】Circuit Cellar Full Year PDF Collection
+
+*   **杂志介绍**：Circuit Cellar是一本在嵌入式系统领域极具声望的专业杂志，专注于嵌入式硬件、软件、电子工程及计算机应用。
+
+*   **文件大小**：3.46 G
+    
+*   **文件数量**：135 本
