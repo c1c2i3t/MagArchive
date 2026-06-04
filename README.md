@@ -459,3 +459,102 @@
 *   **文件大小**：3.46 G
     
 *   **文件数量**：135 本
+
+
+### 51、Art Reviews 艺术评价杂志历年电子版PDF资源网盘合集/Art Reviews 艺术评价杂志历年电子版资源合集【1973-1996】【2006-2026】Art Reviews Full Year PDF Collection
+
+*   **杂志介绍**：《ArtReview》是全球领先的当代艺术杂志之一，杂志在专业受众和公众之间取得了罕见的平衡，既服务于研究型学者，也面向渴望了解当代艺术话语的普通读者，被誉为“全球当代艺术界的权力手册”。中文名为艺术世界/艺术评价杂志。
+
+*   **文件大小**：18.88 G
+    
+*   **文件数量**：660 本
+
+
+### 52、Aviation Week & Space Technology 航空周刊与空间技术杂志历年电子版PDF资源网盘合集Aviation Week & Space Technology 航空周刊与空间技术杂志历年电子版资源合集【1916-2026】Aviation Week & Space Technology Full Year PDF Collection
+
+*   **杂志介绍**：《Aviation Week & Space Technology》（常缩写为Aviation Week或AW&ST）是全球航空航天、国防与航天领域最具权威性的新闻周刊
+
+*   **文件大小**：92.8 G
+    
+*   **文件数量**：4662 本
+
+
+### 52、Aviation Week & Space Technology 航空周刊与空间技术杂志历年电子版PDF资源网盘合集Aviation Week & Space Technology 航空周刊与空间技术杂志历年电子版资源合集【1916-2026】Aviation Week & Space Technology Full Year PDF Collection
+
+*   **杂志介绍**：《Aviation Week & Space Technology》（常缩写为Aviation Week或AW&ST）是全球航空航天、国防与航天领域最具权威性的新闻周刊
+
+*   **文件大小**：92.8 G
+    
+*   **文件数量**：4662 本
+
+
+### 53、BHG Better homes and gardens 美国家居生活杂志历年电子版PDF资源网盘合集BHG Better homes and gardens 美国家居生活杂志历年电子版资源合集【1922-2026】BHG Better homes and gardens Full Year PDF Collection
+
+*   **杂志介绍**：《Better Homes and Gardens》（常缩写为BH&G）是美国最具影响力的生活方式杂志之一。
+
+*   **文件大小**：58.7 G
+    
+*   **文件数量**：1245 本
+
+
+### 54、BYTE-MAGAZINE-COMPLETE 字节杂志老牌计算机杂志历年电子版PDF资源网盘合集BYTE-MAGAZINE-COMPLETE 字节杂志老牌计算机杂志历年电子版资源合集【1975-1998】BYTE Full Year PDF Collection
+
+*   **杂志介绍**：《BYTE》杂志是一本在计算机发展史上留下深刻印记的刊物，尤其在20世纪70年代末到90年代，它对微型计算机领域产生了广泛而深远的影响，该杂志是微型计算机杂志的先驱之一，被誉为”计算领域的《科学美国人》”。
+
+*   **文件大小**：12.5 G
+    
+*   **文件数量**：287 本
+
+
+### 55、ConsumerReports消费者报告杂志历年电子版PDF资源网盘合集ConsumerReports消费者报告杂志历年电子版资源合集【1936-2026】ConsumerReports Full Year PDF Collection
+
+*   **杂志介绍**：《消费者报告》（Consumer Reports）是一本由美国消费者联盟（Consumers Union）主办出版的月刊杂志，于1936年5月创刊。杂志以“独立、客观、非盈利”为核心原则，致力于为消费者提供涵盖产品、服务、个人理财、健康和营养等领域的中立信息。
+
+*   **文件大小**：28.7 G
+    
+*   **文件数量**：1120 本
+
+
+### 56、Control Engineering 控制工程杂志历年电子版PDF资源网盘合集Control Engineering 控制工程杂志历年电子版资源合集【1954-2026】Control Engineering Full Year PDF Collection
+
+*   **杂志介绍**：《Control Engineering》 是服务于全球控制、仪器仪表和自动化市场的权威行业媒体品牌，由Technical Publishing Company于1954年9月创刊。《Control Engineering》的核心理念是“成为全球工控、仪器仪表和自动化市场的权威之声”。七十年来，杂志始终致力于为自动化工程师提供“更好完成工作”所需的信息与知识。
+
+*   **文件大小**：50.7 G
+    
+*   **文件数量**：1184 本
+
+
+### 57、Film Magazine 波兰电影杂志历年电子版PDF资源网盘合集Film Magazine 波兰电影杂志历年电子版资源合集【1946-2013】Film Magazine Full Year PDF Collection
+
+*   **杂志介绍**：《Film》是波兰历史最悠久、最具影响力的电影杂志之一，由耶日·吉日茨基（Jerzy Giżycki）、兹比格涅夫·皮特拉（Zbigniew Pitera）、塔德乌什·科瓦尔斯基（Tadeusz Kowalski）和莱昂·布科维茨基（Leon Bukowiecki）于1946年8月1日在华沙创刊。杂志致力于电影艺术与文化的传播，是波兰电影界最重要的专业刊物之一，于2013年停刊。
+
+*   **文件大小**：80 G
+    
+*   **文件数量**：2439 本
+
+
+### 58、FilmComment 电影评论杂志历年电子版PDF资源网盘合集FilmComment 电影评论杂志历年电子版资源合集【1962-2020】FilmComment Full Year PDF Collection
+
+*   **杂志介绍**：在美国乃至全球的影评圈里，《Film Comment》一直有着鹤立鸡群的高端地位。它的品味和英国老牌权威杂志《视与听》（Sight & Sound）非常接近，被认为是汇集了北美最高端影评人的刊物。自1962年创刊以来，一直以深刻的见解和不随波逐流的品味著称.2020年因为疫情停刊。
+
+*   **文件大小**：9.28 G
+    
+*   **文件数量**：314 本
+
+
+### 59、Fine Woodworking 精细木工杂志历年电子版PDF资源网盘合集Fine Woodworking 精细木工杂志历年电子版资源合集【1975-2026】Fine Woodworking Full Year PDF Collection
+
+*   **杂志介绍**：Fine Woodworking是专注于木工工艺与技巧的国际权威杂志，于1975年在美国创刊。它由Taunton Press出版，该杂志的创立源于市场上高质量木工信息的匮乏，旨在成为木工领域的卓越信息来源。
+
+*   **文件大小**：8.6 G
+    
+*   **文件数量**：350 本
+
+
+### 60、Forbes USA福布斯商业杂志历年电子版PDF资源网盘合集Forbes USA福布斯商业杂志历年电子版资源合集【1917-2026】Forbes USA Full Year PDF Collection
+
+*   **杂志介绍**：《福布斯》（Forbes）是一本在全球范围内极具影响力的商业杂志，以其深刻的商业洞察和标志性的榜单排名而闻名。
+
+*   **文件大小**：102 G
+    
+*   **文件数量**：2400 本
