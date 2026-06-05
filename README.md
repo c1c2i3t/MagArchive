@@ -695,7 +695,7 @@
 *   **文件数量**：2295 本
 
 
-### 76、Redbook 女性时尚杂志小红书杂志历年电子版PDF资源网盘合集Redbook 女性时尚杂志小红书英文版杂志历年电子版资源合集【1903-2021】Redbook Full Year PDF Collection
+### [76、Redbook 女性时尚杂志小红书杂志历年电子版PDF资源网盘合集Redbook 女性时尚杂志小红书英文版杂志历年电子版资源合集【1903-2021】Redbook Full Year PDF Collection](./Redbook%E5%A5%B3%E6%80%A7%E6%97%B6%E5%B0%9A%E6%9D%82%E5%BF%97%E5%B0%8F%E7%BA%A2%E4%B9%A6%E6%9D%82%E5%BF%97%E5%8E%86%E5%B9%B4%E7%94%B5%E5%AD%90%E7%89%88%E8%B5%84%E6%BA%90%E7%BD%91%E7%9B%98%E5%90%88%E9%9B%86%E5%A5%B3%E6%80%A7%E6%97%B6%E5%B0%9A%E6%9D%82%E5%BF%97%E5%B0%8F%E7%BA%A2%E4%B9%A6%E8%8B%B1%E6%96%87%E7%89%88%E6%9D%82%E5%BF%97%E3%80%901903-2021%E3%80%91)
 
 *   **杂志介绍**：《Redbook》是美国历史悠久的女性服务杂志之一，被誉为一百年前的小红书，于1903年5月在芝加哥创刊，最初名为《The Red Book Illustrated》。杂志由Stumer, Rosenthal and Eckstein公司创办，是当时“全球最大的插图小说杂志”。
 
