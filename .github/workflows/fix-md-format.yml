@@ -15,30 +15,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Create fix script
-        run: |
-          cat > fix_md_newlines.py << 'EOF'
-import os
-from pathlib import Path
-
-for folder in Path('.').iterdir():
-    if not folder.is_dir():
-        continue
-    for md_file in folder.glob('*.md'):
-        if md_file.name == 'README.md':
-            continue
-        content = md_file.read_text(encoding='utf-8')
-        lines = [line.strip() for line in content.splitlines() if line.strip()]
-        if not lines:
-            continue
-        fixed = '\r\n'.join(lines)
-        if fixed != content:
-            md_file.write_text(fixed, encoding='utf-8')
-            print(f'Fixed: {md_file}')
-        else:
-            print(f'Already correct: {md_file}')
-EOF
-
       - name: Run fix script
         run: python fix_md_newlines.py
 
