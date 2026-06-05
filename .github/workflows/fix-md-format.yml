@@ -1,0 +1,54 @@
+name: Fix MD Newlines
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Fix newlines in all .md files inside subfolders
+        run: |
+          python -c "
+import os
+from pathlib import Path
+
+# 遍历仓库根目录下的所有一级子目录（每个杂志文件夹）
+for folder in Path('.').iterdir():
+    if not folder.is_dir():
+        continue
+    # 查找该文件夹下的所有 .md 文件（通常只有一个，但保险起见遍历）
+    for md_file in folder.glob('*.md'):
+        if md_file.name == 'README.md':
+            continue
+        # 读取原内容
+        content = md_file.read_text(encoding='utf-8')
+        # 按行拆分（兼容各种换行符）
+        lines = [line.strip() for line in content.splitlines() if line.strip()]
+        # 如果没有内容，跳过
+        if not lines:
+            continue
+        # 用 CRLF 重新连接（每行末尾 \r\n）
+        fixed = '\r\n'.join(lines)
+        # 如果内容发生变化，写回文件
+        if fixed != content:
+            md_file.write_text(fixed, encoding='utf-8')
+            print(f'Fixed: {md_file}')
+        else:
+            print(f'Already correct: {md_file}')
+"
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: "fix: correct line breaks in directory md files"
+          file_pattern: '*/*.md'
+          skip_dirty_check: false
