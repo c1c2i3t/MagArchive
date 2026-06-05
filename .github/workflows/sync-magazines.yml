@@ -1,0 +1,39 @@
+name: Sync Magazines
+
+on:
+  push:
+    paths:
+      - 'README.md'
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run sync script
+        run: python sync_magazines.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-sync magazines from README"
+          file_pattern: '*.md */*.md'
+          skip_dirty_check: false
+          commit_user_name: 'MagArchive Bot'
+          commit_user_email: 'magarchive-bot@users.noreply.github.com'
+          commit_author: 'MagArchive Bot <magarchive-bot@users.noreply.github.com>'
