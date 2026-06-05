@@ -10,9 +10,28 @@ from urllib.parse import quote
 readme_path = "README.md"
 
 def extract_magazine_info(line):
-    """从杂志标题行提取中英文名、起止年份（兼容有/无“年”字）"""
+    """
+    从杂志标题行提取中英文名、起止年份。
+    兼容两种格式：
+      1. 原始格式：### 1、经济学人杂志...【1843-2026】 The Economist...
+      2. 超链接格式：### [1、经济学人杂志...【1843-2026】 The Economist...](./文件夹)
+    """
+    # 去除行首的 "### " 和可能的编号
+    content = line.strip()
+    content = re.sub(r'^###\s*', '', content)
+
+    # 检测是否为 Markdown 链接格式： [文本](链接)
+    link_match = re.match(r'^\[(.*?)\]\(.*?\)$', content)
+    if link_match:
+        # 如果是链接格式，提取方括号内的原始文本
+        content = link_match.group(1)
+    else:
+        # 否则去除开头的数字编号（如 "1、"）
+        content = re.sub(r'^\d+[、.]\s*', '', content)
+
+    # 提取年份区间（第一个匹配的区间，支持有无“年”字）
     year_pattern = r'【(\d{4})(?:年)?-(\d{4})(?:年)?】'
-    year_match = re.search(year_pattern, line)
+    year_match = re.search(year_pattern, content)
     if not year_match:
         return None
     start_year = int(year_match.group(1))
@@ -20,33 +39,42 @@ def extract_magazine_info(line):
     if start_year > end_year:
         start_year, end_year = end_year, start_year
 
-    content = line.strip()
-    content = re.sub(r'^###\s*\d+[、.]\s*', '', content)
+    # 分割中文名和英文名：年份区间之前的部分为中文名（含冗余词），之后的部分为英文名
+    parts = content.split('】')
+    if len(parts) < 2:
+        return None
+    before_year = parts[0]               # 例如 "经济学人杂志历年电子版资源合集"
+    after_year = parts[1].strip()        # 例如 "The Economist Full Year PDF Collection"
 
-    prefix = content.split('【')[0]
-    chinese_temp = re.sub(r'[a-zA-Z\s/\\&]+', '', prefix)
-    redundant = [
+    # 清理中文名：移除常见冗余词
+    chinese_raw = before_year
+    redundant_chinese = [
         '历年电子版资源合集', '电子版资源合集', 'PDF资源网盘合集',
         '英文杂志', '杂志历年电子版资源合集', '杂志电子版资源合集',
-        '历年电子版PDF资源网盘合集'
+        '历年电子版PDF资源网盘合集', '资源网盘合集'
     ]
-    for rep in redundant:
-        chinese_temp = chinese_temp.replace(rep, '')
-    chinese_name = chinese_temp.strip()
-    if not chinese_name:
-        chinese_name = ''.join(re.findall(r'[\u4e00-\u9fa5]+', prefix))
+    for word in redundant_chinese:
+        chinese_raw = chinese_raw.replace(word, '')
+    chinese_raw = re.sub(r'杂志$', '', chinese_raw).strip()
+    if not chinese_raw:
+        chinese_raw = ''.join(re.findall(r'[\u4e00-\u9fa5]+', before_year))
+    chinese_name = chinese_raw
 
-    parts = content.split('】')
-    after_year = parts[-1].strip() if len(parts) >= 2 else ""
-    after_year = re.sub(r'\s*(Full Year PDF Collection|PDF Collection|Collection|Full Year|Magazine)$', '', after_year, flags=re.I)
-    eng_match = re.match(r'^([A-Za-z0-9 &]+)', after_year)
+    # 清理英文名：移除常见冗余词，只保留主要英文名
+    english_raw = after_year
+    redundant_english = [
+        'Full Year PDF Collection', 'PDF Collection', 'Collection',
+        'Full Year', 'Magazine'
+    ]
+    for word in redundant_english:
+        english_raw = re.sub(r'\s*' + re.escape(word) + r'\s*', ' ', english_raw, flags=re.I)
+    english_raw = english_raw.strip()
+    eng_match = re.match(r'^([A-Za-z0-9 &]+)', english_raw)
     if eng_match:
         english_name = eng_match.group(1).strip()
     else:
-        eng_fallback = re.search(r'([A-Za-z][A-Za-z\s&]+?)(?:【|$)', content)
-        english_name = eng_fallback.group(1).strip() if eng_fallback else "Unknown"
-    english_name = re.sub(r'\s*(Magazine)$', '', english_name, flags=re.I).strip()
-    english_name = re.sub(r'杂志$', '', english_name).strip()
+        english_name = "Unknown"
+    english_name = re.sub(r'\s+Magazine$', '', english_name, flags=re.I).strip()
 
     return {
         'chinese_name': chinese_name,
@@ -55,6 +83,7 @@ def extract_magazine_info(line):
         'end_year': end_year,
     }
 
+# ================== 以下函数保持不变 ==================
 def build_folder_name(info):
     folder = f"{info['english_name']}{info['chinese_name']}【{info['start_year']}-{info['end_year']}】"
     folder = re.sub(r'[\\/*?:"<>|]', '', folder)
@@ -75,7 +104,6 @@ def escape_markdown_link_text(text):
     return text.replace('[', r'\[').replace(']', r'\]')
 
 def ensure_folder_and_md(info, base_dir):
-    """仅在文件夹不存在时创建，并生成目录.md文件（每行末尾加两个空格）"""
     folder_name = build_folder_name(info)
     folder_path = base_dir / folder_name
     created = False
@@ -91,7 +119,7 @@ def ensure_folder_and_md(info, base_dir):
         lines = []
         for year in range(info['start_year'], info['end_year'] + 1):
             line = f"{info['chinese_name']}{year}年电子版资源合集 {info['english_name']} {year} full year pdf collection"
-            line_with_spaces = line + '  '   # 确保 Markdown 换行
+            line_with_spaces = line + '  '
             lines.append(line_with_spaces)
         md_path.write_text("\n".join(lines), encoding='utf-8')
         print(f"生成目录文件: {md_path}")
@@ -101,12 +129,12 @@ def ensure_folder_and_md(info, base_dir):
     return created
 
 def add_link_to_title(line, info, base_dir):
-    """为标题添加超链接（如果尚未添加）"""
     if re.search(r'\]\(\./', line):
-        return line   # 已有链接，保持不变
+        return line
     folder_name = build_folder_name(info)
     raw_path = f"./{folder_name}"
     encoded_path = encode_url_path(raw_path)
+    # 注意：此时 line 是原始行（可能没有链接），我们需要提取原始标题文本
     original_title = line.strip()[4:]  # 去掉 "### "
     escaped_title = escape_markdown_link_text(original_title)
     return f"### [{escaped_title}]({encoded_path})\n"
@@ -116,7 +144,6 @@ def sync_readme_and_folders(readme_path):
         raise FileNotFoundError(f"文件不存在: {readme_path}")
     base_dir = Path(readme_path).parent
 
-    # 备份原文件（仅用于安全，不影响逻辑）
     backup_path = readme_path + ".sync_bak"
     shutil.copy2(readme_path, backup_path)
     print(f"已备份到: {backup_path}")
@@ -126,10 +153,10 @@ def sync_readme_and_folders(readme_path):
 
     new_lines = []
     for line in lines:
-        if line.startswith('### ') and '历年电子版资源合集' in line and '【' in line:
+        if line.startswith('### ') and '【' in line and ('历年电子版资源合集' in line or 'full year pdf collection' in line.lower()):
             info = extract_magazine_info(line)
             if info:
-                ensure_folder_and_md(info, base_dir)   # 增量创建
+                ensure_folder_and_md(info, base_dir)
                 new_line = add_link_to_title(line, info, base_dir)
                 new_lines.append(new_line)
                 print(f"处理条目: {info['english_name']} / {info['chinese_name']} ({info['start_year']}-{info['end_year']})")
@@ -139,7 +166,6 @@ def sync_readme_and_folders(readme_path):
         else:
             new_lines.append(line)
 
-    # 只有当内容发生变化时才写回
     if new_lines != lines:
         with open(readme_path, 'w', encoding='utf-8') as f:
             f.writelines(new_lines)
