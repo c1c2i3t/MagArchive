@@ -1,4 +1,4 @@
-name: Fix MD Newlines
+name: Fix Markdown Newlines in All MD Files
 
 on:
   workflow_dispatch:
@@ -12,15 +12,13 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
 
       - name: Run fix script
-        run: python fix_md_newlines.py
+        run: python markdown_newline_fixer.py
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          commit_message: "fix: correct line breaks in directory md files"
+          commit_message: "fix: add two spaces at line ends for markdown newlines"
           file_pattern: '*/*.md'
           skip_dirty_check: false
