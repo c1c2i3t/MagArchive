@@ -693,3 +693,12 @@
 *   **文件大小**：90 G
     
 *   **文件数量**：2295 本
+
+
+### 76、Redbook 女性时尚杂志小红书杂志历年电子版PDF资源网盘合集Redbook 女性时尚杂志小红书英文版杂志历年电子版资源合集【1903-2021】Redbook Full Year PDF Collection
+
+*   **杂志介绍**：《Redbook》是美国历史悠久的女性服务杂志之一，被誉为一百年前的小红书，于1903年5月在芝加哥创刊，最初名为《The Red Book Illustrated》。杂志由Stumer, Rosenthal and Eckstein公司创办，是当时“全球最大的插图小说杂志”。
+
+*   **文件大小**：74 G
+    
+*   **文件数量**：1311 本
