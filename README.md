@@ -380,7 +380,7 @@
 *   **文件数量**：1829 本
 
 
-### [42、Barrons巴伦周刊杂志历年电子版PDF资源网盘合集/Barrons巴伦周刊杂志历年电子版资源合集【1971-2026】缺（1999-2016）Barrons Full Year PDF Collection](./Barrons巴伦周刊杂志历年电子版资源网盘合集巴伦周刊杂志【1971-2026】)
+### [42、Barrons巴伦周刊杂志历年电子版PDF资源网盘合集/Barrons巴伦周刊杂志历年电子版资源合集【1971-2026】缺（1999-2016）Barrons Full Year PDF Collection](./Barrons Full Year PDF Collection巴伦周刊杂志历年电子版资源网盘合集巴伦周刊杂志【1971-2026】)
 
 *   **杂志介绍**：《巴伦周刊》（Barron’s）是美国最具影响力的专业财经周刊，是全球金融投资领域的权威出版物。
 
