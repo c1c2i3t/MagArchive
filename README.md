@@ -702,3 +702,12 @@
 *   **文件大小**：74 G
     
 *   **文件数量**：1311 本
+
+
+### 77、The  Diapason 管风琴音乐期刊历年电子版PDF资源网盘合集The  Diapason 管风琴音乐期刊杂志历年电子版资源合集【1909-2026】The  Diapason Full Year PDF Collection
+
+*   **杂志介绍**：《The Diapason》（中文常译作《管风琴》或《音叉》）是全球历史最悠久、最受尊敬的管风琴及教堂音乐期刊之一，由齐格弗里德·伊曼纽尔·格伦斯坦（Siegfried Emanuel Gruenstein）于1909年12月1日在伊利诺伊州芝加哥创刊。杂志现由Scranton Gillette Communications出版，总部位于伊利诺伊州阿灵顿海茨，是一本专注于管风琴、羽管键琴、钟琴和教堂音乐的国际月刊。
+
+*   **文件大小**：22 G
+    
+*   **文件数量**：1273 本
