@@ -711,3 +711,12 @@
 *   **文件大小**：22 G
     
 *   **文件数量**：1273 本
+
+
+### 78、The Paris Review 巴黎评论历年电子版PDF资源网盘合集The Paris Review 巴黎评论杂志历年电子版资源合集【1953-2026】The Paris Review Full Year PDF Collection
+
+*   **杂志介绍**：《The Paris Review》（中文常译作《巴黎评论》）是美国最著名的文学季刊之一，由乔治·普林顿（George Plimpton）、彼得·马修森（Peter Matthiessen）和哈罗德·L·休姆斯（Harold L. Humes）于1953年春季在法国巴黎创刊。杂志以“为文学艺术本身服务，而非服务其他任何议程”为宗旨，被誉为“美国文学界的黄金标准”。
+
+*   **文件大小**：11.3 G
+    
+*   **文件数量**：394 本
