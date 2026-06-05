@@ -11,24 +11,14 @@ readme_path = "README.md"
 
 def extract_magazine_info(line):
     """
-    从杂志标题行提取中英文名、起止年份。
-    兼容两种格式：
-      1. 原始格式：### 1、经济学人杂志...【1843-2026】 The Economist...
-      2. 超链接格式：### [1、经济学人杂志...【1843-2026】 The Economist...](./文件夹)
+    从原始杂志标题行（非超链接格式）提取中英文名、起止年份。
+    例如：### 1、经济学人杂志...【1843-2026】 The Economist...
     """
     content = line.strip()
-    # 去掉开头的 "### " 和可能的前导空格
     content = re.sub(r'^###\s*', '', content)
-
-    # 如果是超链接格式，提取方括号内的内容
-    link_match = re.match(r'^\[(.*?)\]\(.*?\)$', content)
-    if link_match:
-        content = link_match.group(1)
-    else:
-        # 去掉数字编号，如 "1、" 或 "1."
-        content = re.sub(r'^\d+[、.]\s*', '', content)
-
-    # 提取年份区间：支持有无“年”字，取第一个【...】
+    # 去掉数字编号
+    content = re.sub(r'^\d+[、.]\s*', '', content)
+    # 提取年份区间
     year_pattern = r'【(\d{4})(?:年)?-(\d{4})(?:年)?】'
     year_match = re.search(year_pattern, content)
     if not year_match:
@@ -38,14 +28,13 @@ def extract_magazine_info(line):
     if start_year > end_year:
         start_year, end_year = end_year, start_year
 
-    # 分割中文名和英文名：以最后一个】为界
     parts = content.split('】')
     if len(parts) < 2:
         return None
-    before_year = parts[0]   # 年份区间之前的部分（中文部分）
-    after_year = parts[-1].strip()  # 最后一个】之后的部分（英文部分）
+    before_year = parts[0]
+    after_year = parts[-1].strip()
 
-    # 清理中文名：去除常见冗余后缀
+    # 清理中文名
     chinese_raw = before_year
     redundant_chinese = [
         '历年电子版资源合集', '电子版资源合集', 'PDF资源网盘合集',
@@ -68,7 +57,6 @@ def extract_magazine_info(line):
     for word in redundant_english:
         english_raw = re.sub(r'\s*' + re.escape(word) + r'\s*', ' ', english_raw, flags=re.I)
     english_raw = english_raw.strip()
-    # 提取连续的英文、数字、&
     eng_match = re.match(r'^([A-Za-z0-9 &]+)', english_raw)
     if eng_match:
         english_name = eng_match.group(1).strip()
@@ -84,14 +72,12 @@ def extract_magazine_info(line):
     }
 
 def build_folder_name(info):
-    """根据杂志信息构造文件夹名"""
     folder = f"{info['english_name']}{info['chinese_name']}【{info['start_year']}-{info['end_year']}】"
-    folder = re.sub(r'[\\/*?:"<>|]', '', folder)  # 移除非法字符
-    folder = re.sub(r'\s+', ' ', folder).strip()  # 合并多余空格
+    folder = re.sub(r'[\\/*?:"<>|]', '', folder)
+    folder = re.sub(r'\s+', ' ', folder).strip()
     return folder
 
 def encode_url_path(path):
-    """对URL路径进行编码（空格->%20）"""
     if path.startswith('./'):
         prefix = './'
         rest = path[2:]
@@ -102,16 +88,13 @@ def encode_url_path(path):
     return prefix + encoded_rest
 
 def escape_markdown_link_text(text):
-    """转义Markdown链接文本中的方括号"""
     return text.replace('[', r'\[').replace(']', r'\]')
 
 def create_folder_and_md(info, base_dir):
-    """为新增条目创建文件夹和目录.md文件（仅当不存在时）"""
     folder_name = build_folder_name(info)
     folder_path = base_dir / folder_name
     folder_path.mkdir(parents=True, exist_ok=True)
     print(f"✅ 新建文件夹: {folder_name}")
-
     md_path = folder_path / f"{folder_name}目录.md"
     lines = []
     for year in range(info['start_year'], info['end_year'] + 1):
@@ -120,17 +103,20 @@ def create_folder_and_md(info, base_dir):
     md_path.write_text("\n".join(lines), encoding='utf-8')
     print(f"✅ 生成目录文件: {md_path}")
 
-def add_link_to_line(line, info, base_dir):
-    """为给定的原始标题行生成带超链接的新行"""
+def add_link_to_line(original_line, info, base_dir):
     folder_name = build_folder_name(info)
     raw_path = f"./{folder_name}"
     encoded_path = encode_url_path(raw_path)
-    original_title = line.strip()[4:]  # 去掉开头的 "### "
-    escaped_title = escape_markdown_link_text(original_title)
+    title_text = original_line.strip()[4:]  # 去掉 "### "
+    escaped_title = escape_markdown_link_text(title_text)
     return f"### [{escaped_title}]({encoded_path})\n"
 
+def has_existing_link(line):
+    """检查该行是否已经包含我们格式的超链接"""
+    return '](./' in line
+
 def get_existing_folders(base_dir):
-    """返回根目录下所有符合命名规范的文件夹名集合"""
+    """返回根目录下所有合法杂志文件夹名集合"""
     pattern = re.compile(r'.+【\d{4}-\d{4}】$')
     existing = set()
     for item in base_dir.iterdir():
@@ -143,55 +129,58 @@ def sync_readme_and_folders(readme_path):
         raise FileNotFoundError(f"文件不存在: {readme_path}")
     base_dir = Path(readme_path).parent
 
-    # 备份原文件
+    # 备份
     backup_path = readme_path + ".sync_bak"
     shutil.copy2(readme_path, backup_path)
     print(f"📁 已备份到: {backup_path}")
 
-    # 读取 README 所有行
     with open(readme_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
-    # 解析所有杂志条目，生成目标信息列表
-    target_entries = []  # 每个元素为 (行号, 原始行, info)
-    for idx, line in enumerate(lines):
-        if line.startswith('### ') and '【' in line and ('历年电子版资源合集' in line or 'full year pdf collection' in line.lower()):
-            info = extract_magazine_info(line)
-            if info:
-                target_entries.append((idx, line, info))
-            else:
-                print(f"⚠️ 警告：解析失败，行 {idx+1}: {line[:80]}")
-
-    # 获取已存在的合法文件夹
     existing_folders = get_existing_folders(base_dir)
     print(f"📁 已存在 {len(existing_folders)} 个杂志文件夹")
 
-    # 找出新增的条目（其文件夹名不在 existing_folders 中）
-    new_entries = []
-    for idx, line, info in target_entries:
-        folder_name = build_folder_name(info)
-        if folder_name not in existing_folders:
-            new_entries.append((idx, line, info))
-            print(f"🆕 新增条目: {info['english_name']} / {info['chinese_name']} ({info['start_year']}-{info['end_year']})")
+    new_lines = []
+    entries_to_link = []  # (行号, 原始行, info)
+
+    for idx, line in enumerate(lines):
+        # 如果已经有超链接，直接保留，不做任何处理
+        if has_existing_link(line):
+            new_lines.append(line)
+            print(f"⏭️ 已有链接，跳过: {line[:60]}...")
+            continue
+
+        # 检查是否是杂志原始行（没有链接）
+        if line.startswith('### ') and '【' in line and ('历年电子版资源合集' in line or 'full year pdf collection' in line.lower()):
+            info = extract_magazine_info(line)
+            if info:
+                folder_name = build_folder_name(info)
+                if folder_name not in existing_folders:
+                    # 新增条目：创建文件夹和 md 文件
+                    create_folder_and_md(info, base_dir)
+                    entries_to_link.append((idx, line, info))
+                    print(f"🆕 新增条目，待添加链接: {info['english_name']} / {info['chinese_name']}")
+                else:
+                    # 文件夹已存在但标题没有链接 -> 补充链接
+                    print(f"⚠️ 文件夹已存在，但标题缺少链接，将补充: {folder_name}")
+                    entries_to_link.append((idx, line, info))
+            else:
+                print(f"⚠️ 解析失败，保留原行: {line[:80]}")
+            new_lines.append(line)
         else:
-            print(f"⏭️ 已存在，跳过: {folder_name}")
+            new_lines.append(line)
 
-    if not new_entries:
-        print("🎉 没有新增条目，无需操作。")
-        return
+    # 为需要添加链接的行替换为超链接版本
+    for idx, original_line, info in entries_to_link:
+        new_link_line = add_link_to_line(original_line, info, base_dir)
+        new_lines[idx] = new_link_line
+        print(f"🔗 添加超链接: {info['english_name']}")
 
-    # 只处理新增条目：创建文件夹和 md 文件，并更新 README 中对应行的超链接
-    new_lines = lines.copy()
-    for idx, line, info in new_entries:
-        create_folder_and_md(info, base_dir)
-        new_line = add_link_to_line(line, info, base_dir)
-        new_lines[idx] = new_line
-
-    # 写回 README（仅当有变化）
+    # 写回 README
     if new_lines != lines:
         with open(readme_path, 'w', encoding='utf-8') as f:
             f.writelines(new_lines)
-        print("✅ README.md 已更新（为新增条目添加超链接）")
+        print("✅ README.md 已更新（为新增/缺失链接的条目添加超链接）")
     else:
         print("ℹ️ README.md 无需更新")
 
