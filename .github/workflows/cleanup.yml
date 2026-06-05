@@ -15,14 +15,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Delete folders containing '###'
+      - name: Delete folders containing '、'
         run: |
           echo "Deleting folders with '###' in name..."
-          find . -maxdepth 1 -type d -name '*###*' -exec rm -rf {} + || true
+          find . -maxdepth 1 -type d -name '*、*' -exec rm -rf {} + || true
 
       - name: Commit and push deletions
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          commit_message: "chore: delete folders containing '###'"
+          commit_message: "chore: delete folders containing '、'"
           file_pattern: '.'
           skip_dirty_check: false
