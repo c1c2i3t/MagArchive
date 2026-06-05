@@ -686,7 +686,7 @@
 *   **文件数量**：900 本
 
 
-### 75、Reader's Digest USA 读者文摘英文版杂志历年电子版PDF资源网盘合集Readers Digest USA 读者文摘英文版杂志历年电子版资源合集【1928-2026】Readers Digest USA Full Year PDF Collection
+### [75、Reader's Digest USA 读者文摘英文版杂志历年电子版PDF资源网盘合集Readers Digest USA 读者文摘英文版杂志历年电子版资源合集【1928-2026】Readers Digest USA Full Year PDF Collection](./Readers%20Digest%20USA%27%E8%AF%BB%E8%80%85%E6%96%87%E6%91%98%E8%8B%B1%E6%96%87%E7%89%88%E5%8E%86%E5%B9%B4%E7%94%B5%E5%AD%90%E7%89%88%E8%AF%BB%E8%80%85%E6%96%87%E6%91%98%E8%8B%B1%E6%96%87%E7%89%88%E3%80%901928-2026%E3%80%91)
 
 *   **杂志介绍**：《读者文摘》（Reader’s Digest）是全球发行量最大、最具影响力的家庭月刊之一，由德惠特·华莱士（DeWitt Wallace）与妻子莉拉·艾奇逊·华莱士（Lila Acheson Wallace）于1922年2月5日在纽约格林威治村创刊。杂志最初以“从其他杂志摘录精华文章”为理念，通过邮购方式发行，很快成为美国中产阶级家庭的必备读物，被形象地称作“候诊室及中产阶级床头历史悠久的必备之选”。
 
