@@ -77,10 +77,20 @@ def ensure_folder_and_md(info, base_dir):
         folder_path.mkdir(parents=True, exist_ok=True)
         created = True
     md_path = folder_path / f"{folder_name}目录.md"
-    if not md_path.exists():
+    # 检查是否需要生成/重新生成（如果文件不存在，或内容没有换行则重新生成）
+    need_regenerate = False
+    if md_path.exists():
+        content = md_path.read_text(encoding='utf-8')
+        # 正常文件应该每行一条记录，至少有两行，且包含换行符
+        if '\n' not in content or len(content.splitlines()) < 2:
+            need_regenerate = True
+    else:
+        need_regenerate = True
+    if need_regenerate:
         lines = [f"{info['chinese_name']}{year}年电子版资源合集 {info['english_name']} {year} full year pdf collection"
                  for year in range(info['start_year'], info['end_year'] + 1)]
         md_path.write_text("\n".join(lines), encoding='utf-8')
+        print(f"生成/修复目录文件: {md_path}")
         created = True
     return created
 
