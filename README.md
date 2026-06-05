@@ -720,3 +720,12 @@
 *   **文件大小**：11.3 G
     
 *   **文件数量**：394 本
+
+
+### 79、The Saturday Evening Post 星期六晚邮报历年电子版PDF资源网盘合集The Saturday Evening Post 星期六晚邮报杂志历年电子版资源合集【1821-2024】The Saturday Evening Post Full Year PDF Collection
+
+*   **杂志介绍**：《The Saturday Evening Post Magazine》是美国历史最悠久、最具影响力的杂志之一，于1821年8月4日在费城创刊。《The Saturday Evening Post》被誉为“美国的杂志”（America‘s Magazine），以“通过其特写和文章代表美国生活方式”为使命。在20世纪的大部分时间里，它是美国发行量最大的周刊。
+
+*   **文件大小**：242 G
+    
+*   **文件数量**：7906 本
