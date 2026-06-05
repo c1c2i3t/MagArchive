@@ -20,19 +20,9 @@ jobs:
           echo "Deleting folders with '###' in name..."
           find . -maxdepth 1 -type d -name '*###*' -exec rm -rf {} + || true
 
-      - name: Delete folders containing '历年电子版资源网盘合集杂志'
-        run: |
-          echo "Deleting folders with '历年电子版资源网盘合集杂志' in name..."
-          find . -maxdepth 1 -type d -name '*历年电子版资源网盘合集杂志*' -exec rm -rf {} + || true
-
-      - name: Delete folders containing two year ranges (like 【2026-2012】【1962-1997】)
-        run: |
-          echo "Deleting folders with two '【' patterns..."
-          find . -maxdepth 1 -type d -name '*【*【*' -exec rm -rf {} + || true
-
       - name: Commit and push deletions
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          commit_message: "chore: delete incorrectly generated folders"
+          commit_message: "chore: delete folders containing '###'"
           file_pattern: '.'
           skip_dirty_check: false
