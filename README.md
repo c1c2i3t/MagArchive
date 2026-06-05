@@ -713,7 +713,7 @@
 *   **文件数量**：1273 本
 
 
-### 78、The Paris Review 巴黎评论历年电子版PDF资源网盘合集The Paris Review 巴黎评论杂志历年电子版资源合集【1953-2026】The Paris Review Full Year PDF Collection
+### [78、The Paris Review 巴黎评论历年电子版PDF资源网盘合集The Paris Review 巴黎评论杂志历年电子版资源合集【1953-2026】The Paris Review Full Year PDF Collection](./The%20Paris%20Review%E5%B7%B4%E9%BB%8E%E8%AF%84%E8%AE%BA%E5%8E%86%E5%B9%B4%E7%94%B5%E5%AD%90%E7%89%88%E5%B7%B4%E9%BB%8E%E8%AF%84%E8%AE%BA%E3%80%901953-2026%E3%80%91)
 
 *   **杂志介绍**：《The Paris Review》（中文常译作《巴黎评论》）是美国最著名的文学季刊之一，由乔治·普林顿（George Plimpton）、彼得·马修森（Peter Matthiessen）和哈罗德·L·休姆斯（Harold L. Humes）于1953年春季在法国巴黎创刊。杂志以“为文学艺术本身服务，而非服务其他任何议程”为宗旨，被誉为“美国文学界的黄金标准”。
 
@@ -722,7 +722,7 @@
 *   **文件数量**：394 本
 
 
-### 79、The Saturday Evening Post 星期六晚邮报历年电子版PDF资源网盘合集The Saturday Evening Post 星期六晚邮报杂志历年电子版资源合集【1821-2024】The Saturday Evening Post Full Year PDF Collection
+### [79、The Saturday Evening Post 星期六晚邮报历年电子版PDF资源网盘合集The Saturday Evening Post 星期六晚邮报杂志历年电子版资源合集【1821-2024】The Saturday Evening Post Full Year PDF Collection](./The%20Saturday%20Evening%20Post%E6%98%9F%E6%9C%9F%E5%85%AD%E6%99%9A%E9%82%AE%E6%8A%A5%E5%8E%86%E5%B9%B4%E7%94%B5%E5%AD%90%E7%89%88%E6%98%9F%E6%9C%9F%E5%85%AD%E6%99%9A%E9%82%AE%E6%8A%A5%E3%80%901821-2024%E3%80%91)
 
 *   **杂志介绍**：《The Saturday Evening Post Magazine》是美国历史最悠久、最具影响力的杂志之一，于1821年8月4日在费城创刊。《The Saturday Evening Post》被誉为“美国的杂志”（America‘s Magazine），以“通过其特写和文章代表美国生活方式”为使命。在20世纪的大部分时间里，它是美国发行量最大的周刊。
 
