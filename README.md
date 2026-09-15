@@ -155,13 +155,13 @@
 *   **文件数量**：533 多份
 
 
-### [17、Vogue USA时尚杂志历年电子版PDF资源网盘合集/Vogue USA杂志历年电子版资源合集【1928年-2026年】Vogue USA Full Year PDF Collection](./Vogue%20USA%E6%97%B6%E5%B0%9A%E6%9D%82%E5%BF%97%E5%8E%86%E5%B9%B4%E7%94%B5%E5%AD%90%E7%89%88%E8%B5%84%E6%BA%90%E7%BD%91%E7%9B%98%E5%90%88%E9%9B%86%E6%9D%82%E5%BF%97%E3%80%901928-2026%E3%80%91)
+### [17、Vogue USA时尚杂志历年电子版PDF资源网盘合集/Vogue USA杂志历年电子版资源合集【1892年-2026年】Vogue USA Full Year PDF Collection]
 
 *   **杂志介绍**：VOGUE，是美国康泰纳仕（CondéNest）集团出版的综合性时尚生活杂志。
 
-*   **文件大小**：136 G
+*   **文件大小**：453 G
     
-*   **文件数量**：1600 多份
+*   **文件数量**：3165 多本
   
 
 ### [18、科学美国人杂志历年电子版PDF资源网盘合集/Scientific American杂志历年电子版资源合集【1953年-2026年】Scientific American Full Year PDF Collection](./Scientific%20American%E7%A7%91%E5%AD%A6%E7%BE%8E%E5%9B%BD%E4%BA%BA%E6%9D%82%E5%BF%97%E5%8E%86%E5%B9%B4%E7%94%B5%E5%AD%90%E7%89%88%E8%B5%84%E6%BA%90%E7%BD%91%E7%9B%98%E5%90%88%E9%9B%86%E6%9D%82%E5%BF%97%E3%80%901953-2026%E3%80%91)
