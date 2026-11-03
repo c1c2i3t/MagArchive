@@ -740,7 +740,7 @@
 *   **文件数量**：1208 本
 
 
-### 81、Der Spiegel 德国明镜周刊杂志历年电子版PDF资源网盘合集 Der Spiegel 德国明镜周刊杂志历年电子版资源合集【1946-2026】Der Spiegel Full Year PDF Collection
+### [81、Der Spiegel 德国明镜周刊杂志历年电子版PDF资源网盘合集 Der Spiegel 德国明镜周刊杂志历年电子版资源合集【1946-2026】Der Spiegel Full Year PDF Collection](./Der%20Spiegel%E5%BE%B7%E5%9B%BD%E6%98%8E%E9%95%9C%E5%91%A8%E5%88%8A%E5%8E%86%E5%B9%B4%E7%94%B5%E5%AD%90%E7%89%88%E5%BE%B7%E5%9B%BD%E6%98%8E%E9%95%9C%E5%91%A8%E5%88%8A%E3%80%901946-2026%E3%80%91)
 
 *   **杂志介绍**：德国最具影响力的综合性新闻周刊，由 鲁道夫·奥格斯坦（Rudolf Augstein） 于 1947年1月4日 在汉诺威创刊。也是欧洲发行量最大的新闻周刊。
 
