@@ -776,7 +776,7 @@
 *   **文件数量**：525 本
 
 
-### 84、Harpers BAZAAR 时尚芭莎杂志美国版历年电子版PDF资源网盘合集 Harpers BAZAAR 时尚芭莎杂志美国版历年电子版资源合集【1867-2026】Harpers BAZAAR Full Year PDF Collection
+### [84、Harpers BAZAAR 时尚芭莎杂志美国版历年电子版PDF资源网盘合集 Harpers BAZAAR 时尚芭莎杂志美国版历年电子版资源合集【1867-2026】Harpers BAZAAR Full Year PDF Collection](./Harpers%20BAZAAR%E6%97%B6%E5%B0%9A%E8%8A%AD%E8%8E%8E%E7%BE%8E%E5%9B%BD%E7%89%88%E5%8E%86%E5%B9%B4%E7%94%B5%E5%AD%90%E7%89%88%E6%97%B6%E5%B0%9A%E8%8A%AD%E8%8E%8E%E7%BE%8E%E5%9B%BD%E7%89%88%E3%80%901867-2026%E3%80%91)
 
 *   **杂志介绍**：高端女性时尚与奢华生活方式指南杂志
 
